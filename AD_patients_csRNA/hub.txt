@@ -1,0 +1,5 @@
+hub AD_patients_csRNA
+shortLabel AD_patients_csRNA
+longLabel AD_patients_csRNA
+genomesFile genomes.txt
+email ian.brabb@ucsd.edu

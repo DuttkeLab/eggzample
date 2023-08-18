@@ -1,0 +1,7 @@
+# This is a hub file for the Wash U Epigenome Browser
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_oldCTRL_csRNApos.ucsc.bigWig	homo_sapiens_oldCTRL_csRNA+	show	colorpositive:#990000,colornegative:#004080
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_oldCTRL_csRNAneg.ucsc.bigWig	homo_sapiens_oldCTRL_csRNA-	show	colorpositive:#990000,colornegative:#004080
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_oldAD_csRNApos.ucsc.bigWig	homo_sapiens_oldAD_csRNA+	show	colorpositive:#990000,colornegative:#004080
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_oldAD_csRNAneg.ucsc.bigWig	homo_sapiens_oldAD_csRNA-	show	colorpositive:#990000,colornegative:#004080
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_yCTRL_csRNApos.ucsc.bigWig	homo_sapiens_yCTRL_csRNA+	show	colorpositive:#990000,colornegative:#004080
+bigwig	https://raw.githubusercontent.com/DuttkeLab/eggzample//AD_patients_csRNA/hg38/homo_sapiens_yCTRL_csRNAneg.ucsc.bigWig	homo_sapiens_yCTRL_csRNA-	show	colorpositive:#990000,colornegative:#004080

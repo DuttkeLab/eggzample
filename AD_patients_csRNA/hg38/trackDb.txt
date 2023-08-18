@@ -1,0 +1,66 @@
+track AD_patients_csRNA
+container multiWig
+noInherit on
+shortLabel AD_patients_csRNA
+longLabel AD_patients_csRNA
+type bigWig
+configurable on
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 1.4
+alwaysZero on
+yLineMark 0
+yLineOnOff on
+maxHeightPixels 125:125:11
+
+track homo_sapiens_oldCTRL_csRNA+
+bigDataUrl homo_sapiens_oldCTRL_csRNApos.ucsc.bigWig
+shortLabel homo_sapiens_oldCTRL_csRNA+
+longLabel homo_sapiens_oldCTRL_csRNA+
+type bigWig
+parent AD_patients_csRNA
+color 255,150,150
+
+track homo_sapiens_oldCTRL_csRNA-
+bigDataUrl homo_sapiens_oldCTRL_csRNAneg.ucsc.bigWig
+shortLabel homo_sapiens_oldCTRL_csRNA-
+longLabel homo_sapiens_oldCTRL_csRNA-
+type bigWig
+parent AD_patients_csRNA
+color 255,180,180
+
+track homo_sapiens_oldAD_csRNA+
+bigDataUrl homo_sapiens_oldAD_csRNApos.ucsc.bigWig
+shortLabel homo_sapiens_oldAD_csRNA+
+longLabel homo_sapiens_oldAD_csRNA+
+type bigWig
+parent AD_patients_csRNA
+color 150,150,255
+
+track homo_sapiens_oldAD_csRNA-
+bigDataUrl homo_sapiens_oldAD_csRNAneg.ucsc.bigWig
+shortLabel homo_sapiens_oldAD_csRNA-
+longLabel homo_sapiens_oldAD_csRNA-
+type bigWig
+parent AD_patients_csRNA
+color 180,180,255
+
+track homo_sapiens_yCTRL_csRNA+
+bigDataUrl homo_sapiens_yCTRL_csRNApos.ucsc.bigWig
+shortLabel homo_sapiens_yCTRL_csRNA+
+longLabel homo_sapiens_yCTRL_csRNA+
+type bigWig
+parent AD_patients_csRNA
+color 150,255,150
+
+track homo_sapiens_yCTRL_csRNA-
+bigDataUrl homo_sapiens_yCTRL_csRNAneg.ucsc.bigWig
+shortLabel homo_sapiens_yCTRL_csRNA-
+longLabel homo_sapiens_yCTRL_csRNA-
+type bigWig
+parent AD_patients_csRNA
+color 180,255,180
+
