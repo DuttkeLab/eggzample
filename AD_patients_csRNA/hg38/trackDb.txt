@@ -25,7 +25,7 @@ parent AD_patients_csRNA
 color 255,150,150
 
 track homo_sapiens_oldCTRL_csRNA-
-bigDataUrl homo_sapiens_oldCTRL_csRNAneg.ucsc.bigWig
+bigDataUrl https://raw.githubusercontent.com/DuttkeLab/eggzample/master/AD_patients_csRNA/hg38/homo_sapiens_oldCTRL_csRNAneg.ucsc.bigWig
 shortLabel homo_sapiens_oldCTRL_csRNA-
 longLabel homo_sapiens_oldCTRL_csRNA-
 type bigWig
@@ -33,7 +33,7 @@ parent AD_patients_csRNA
 color 255,180,180
 
 track homo_sapiens_oldAD_csRNA+
-bigDataUrl homo_sapiens_oldAD_csRNApos.ucsc.bigWig
+bigDataUrl https://raw.githubusercontent.com/DuttkeLab/eggzample/master/AD_patients_csRNA/hg38/homo_sapiens_oldAD_csRNApos.ucsc.bigWig
 shortLabel homo_sapiens_oldAD_csRNA+
 longLabel homo_sapiens_oldAD_csRNA+
 type bigWig
@@ -41,7 +41,7 @@ parent AD_patients_csRNA
 color 150,150,255
 
 track homo_sapiens_oldAD_csRNA-
-bigDataUrl homo_sapiens_oldAD_csRNAneg.ucsc.bigWig
+bigDataUrl https://raw.githubusercontent.com/DuttkeLab/eggzample/master/AD_patients_csRNA/hg38/homo_sapiens_oldAD_csRNAneg.ucsc.bigWig
 shortLabel homo_sapiens_oldAD_csRNA-
 longLabel homo_sapiens_oldAD_csRNA-
 type bigWig
@@ -49,7 +49,7 @@ parent AD_patients_csRNA
 color 180,180,255
 
 track homo_sapiens_yCTRL_csRNA+
-bigDataUrl homo_sapiens_yCTRL_csRNApos.ucsc.bigWig
+bigDataUrl https://raw.githubusercontent.com/DuttkeLab/eggzample/master/AD_patients_csRNA/hg38/homo_sapiens_yCTRL_csRNApos.ucsc.bigWig
 shortLabel homo_sapiens_yCTRL_csRNA+
 longLabel homo_sapiens_yCTRL_csRNA+
 type bigWig
@@ -57,7 +57,7 @@ parent AD_patients_csRNA
 color 150,255,150
 
 track homo_sapiens_yCTRL_csRNA-
-bigDataUrl homo_sapiens_yCTRL_csRNAneg.ucsc.bigWig
+bigDataUrl https://raw.githubusercontent.com/DuttkeLab/eggzample/master/AD_patients_csRNA/hg38/homo_sapiens_yCTRL_csRNAneg.ucsc.bigWig
 shortLabel homo_sapiens_yCTRL_csRNA-
 longLabel homo_sapiens_yCTRL_csRNA-
 type bigWig
